@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <ImageButton
+        android:id="@+id/CloseButton"
+        android:layout_width="49dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_close"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close_btn" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="352dp"
+        android:layout_height="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/card_bg" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group_118" />
+
+    <TextView
+        android:id="@+id/question_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_regular"
+        android:text="Câu X"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/ButtonQuesLongA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_queslongA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/a_question" />
+
+    <ImageButton
+        android:id="@+id/ButtonQuesLongB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_queslongB1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonQuesLongA"
+        app:srcCompat="@drawable/b_question" />
+
+    <ImageButton
+        android:id="@+id/ButtonQuesLongC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_queslongC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonQuesLongB"
+        app:srcCompat="@drawable/c_question" />
+
+    <ImageButton
+        android:id="@+id/ButtonQuesLongD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_queslongD1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonQuesLongC"
+        app:srcCompat="@drawable/d_question" />
+
+    <TextView
+        android:id="@+id/AnsA"
+        android:layout_width="250dp"
+        android:layout_height="61dp"
+        android:autoSizeMaxTextSize="24sp"
+        android:autoSizeMinTextSize="1sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center"
+        android:text="Answer A"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongA"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongA"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/answer_name_holder_A"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongA"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/AnsB"
+        android:layout_width="250dp"
+        android:layout_height="62dp"
+        android:autoSizeMaxTextSize="24sp"
+        android:autoSizeMinTextSize="1sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center"
+        android:text="Answer B"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongB"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongB"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/answer_name_holder_B"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongB"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/AnsC"
+        android:layout_width="250dp"
+        android:layout_height="62dp"
+        android:autoSizeMaxTextSize="24sp"
+        android:autoSizeMinTextSize="1sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center"
+        android:text="Answer C"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongC"
+        app:layout_constraintStart_toEndOf="@+id/answer_name_holder_C"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongC"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/AnsD"
+        android:layout_width="249dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="14dp"
+        android:autoSizeMaxTextSize="24sp"
+        android:autoSizeMinTextSize="1sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center"
+        android:text="Answer D"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongD"
+        app:layout_constraintStart_toEndOf="@+id/answer_name_holder_D"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongD"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/answer_name_holder_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongD"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongD"
+        app:srcCompat="@drawable/group_119" />
+
+    <ImageView
+        android:id="@+id/answer_name_holder_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongC"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongC"
+        app:srcCompat="@drawable/group_119" />
+
+    <ImageView
+        android:id="@+id/answer_name_holder_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongB"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongB"
+        app:srcCompat="@drawable/group_119" />
+
+    <ImageView
+        android:id="@+id/answer_name_holder_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongA"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongA"
+        app:srcCompat="@drawable/group_119" />
+
+    <TextView
+        android:id="@+id/txt_answer_A"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="A"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer_name_holder_A"
+        app:layout_constraintEnd_toEndOf="@+id/answer_name_holder_A"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/answer_name_holder_A"
+        app:layout_constraintTop_toTopOf="@+id/answer_name_holder_A"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/txt_answer_B"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="B"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer_name_holder_B"
+        app:layout_constraintEnd_toStartOf="@+id/AnsB"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/answer_name_holder_B"
+        app:layout_constraintTop_toTopOf="@+id/answer_name_holder_B"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/txt_answer_C"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="C"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer_name_holder_C"
+        app:layout_constraintEnd_toStartOf="@+id/AnsC"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/answer_name_holder_C"
+        app:layout_constraintTop_toTopOf="@+id/answer_name_holder_C" />
+
+    <TextView
+        android:id="@+id/txt_answer_D"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="D"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer_name_holder_D"
+        app:layout_constraintEnd_toStartOf="@+id/AnsD"
+        app:layout_constraintStart_toStartOf="@+id/answer_name_holder_D"
+        app:layout_constraintTop_toTopOf="@+id/answer_name_holder_D" />
+
+
+    <Button
+        android:id="@+id/review_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="REview"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/picked_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongA"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongA"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongA"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongA"
+        app:srcCompat="@drawable/picked" />
+
+    <ImageView
+        android:id="@+id/picked_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/AnsB"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongB"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongB"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongB"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/picked" />
+
+    <ImageView
+        android:id="@+id/picked_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongC"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongC"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongC"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongC"
+        app:srcCompat="@drawable/picked" />
+
+    <ImageView
+        android:id="@+id/picked_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonQuesLongD"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonQuesLongD"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/ButtonQuesLongD"
+        app:layout_constraintTop_toTopOf="@+id/ButtonQuesLongD"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/picked" />
+
+    <TextView
+        android:id="@+id/question_content_text"
+        android:layout_width="300dp"
+        android:layout_height="198dp"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Question here"
+        android:textColor="#8A78D4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/TVDiem"
+        android:layout_width="107dp"
+        android:layout_height="31dp"
+        android:contentDescription="tv_diem"
+        android:fontFamily="@font/baloo_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Score : 0"
+        android:textColor="#594F72"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="btn_submit"
+        android:text="Submit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnNext"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toEndOf="@+id/btnPrevious"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonQuesLongD"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btnNext"
+        android:rotationY="180"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnsD"
+        app:srcCompat="@drawable/back_button" />
+
+    <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btnPrevious"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AnsD"
+        app:srcCompat="@drawable/back_button" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="92dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/question_content_text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/timer" />
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_regular"
+        android:text="90s"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView78"
+        app:layout_constraintEnd_toEndOf="@+id/imageView78"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="@+id/imageView78"
+        app:layout_constraintTop_toTopOf="@+id/imageView78"
+        app:layout_constraintVertical_bias="0.562" />
+</androidx.constraintlayout.widget.ConstraintLayout>

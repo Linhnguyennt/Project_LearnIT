@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="58dp"
+        android:layout_height="61dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="btn_back"
+        app:layout_constraintBottom_toTopOf="@+id/imageView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_99" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/create" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/baloo_regular"
+        android:text="Create question"
+        android:textColor="@color/black"
+
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/mcq_white_ip" />
+
+    <ImageButton
+        android:id="@+id/BntCreateQuesYN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:srcCompat="@drawable/create_quiz_button" />
+
+    <EditText
+        android:id="@+id/editTextYN"
+        android:layout_width="155dp"
+        android:layout_height="27dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/baloo_regular"
+        android:hint="Input question..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView72"
+        app:layout_constraintEnd_toEndOf="@+id/imageView72"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toTopOf="@+id/imageView72"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:background="#FAF8F8"
+        android:entries="@array/array_name"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView65" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView61"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72"
+        app:srcCompat="@drawable/bgtrue" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_regular"
+        android:text="True"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView60"
+        app:layout_constraintEnd_toEndOf="@+id/imageView60"
+        app:layout_constraintStart_toStartOf="@+id/imageView60"
+        app:layout_constraintTop_toTopOf="@+id/imageView60" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/BntCreateQuesYN"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/bgfalse" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_regular"
+        android:text="False"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView61"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintStart_toStartOf="@+id/imageView61"
+        app:layout_constraintTop_toTopOf="@+id/imageView61" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTrue"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:background="@drawable/checkbox_custom"
+        android:button="@null"
+        android:buttonTint="#FFFFFF"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView60"
+        app:layout_constraintEnd_toEndOf="@+id/imageView60"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="@+id/imageView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFalse"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:background="@drawable/checkbox_custom"
+        android:button="@null"
+        android:buttonTint="#FFFFFF"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView61"
+        app:layout_constraintEnd_toEndOf="@+id/imageView61"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="@+id/imageView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_regular"
+        android:text="Create Question"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BntCreateQuesYN"
+        app:layout_constraintEnd_toEndOf="@+id/BntCreateQuesYN"
+        app:layout_constraintStart_toStartOf="@+id/BntCreateQuesYN"
+        app:layout_constraintTop_toTopOf="@+id/BntCreateQuesYN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

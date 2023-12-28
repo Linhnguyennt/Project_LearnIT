@@ -1,0 +1,605 @@
+{
+  "id": "KTPM",
+  "name": "Software Testing",
+  "description": "Software Testing: essential discipline ensuring quality and reliability in software.",
+  "list": [
+    {
+      "Id": 0,
+      "Content": "White Box test design techniques are: Statement, Path and ... coverage testing",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Logic"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "System"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Structural"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Condition"
+        }
+      ]
+    },
+    {
+      "Id": 1,
+      "Content": "How many levels of authentication are there in the V model?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "5"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "4"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "6"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "3"
+        }
+      ]
+    },
+{
+      "Id": 2,
+      "Content": "CSTE Certification stand for:",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Certified Software Testing Engineering"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Certified Software Test Engineer"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Certificate Software Testing Engineering"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "No correct answer"
+        }
+      ]
+    },
+{
+      "Id": 3,
+      "Content": "How many types of systematic technique?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "2"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "3"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "5"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "4"
+        }
+      ]
+    },
+{
+      "Id": 4,
+      "Content": "Condition Coverage has 4 possible combinations: TT, FF, TF and...",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "TTT"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "TFF"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "QA"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "FT"
+        }
+      ]
+    },
+{
+      "Id": 5,
+      "Content": "Incorrect form of Logic coverage is:",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Pole Coverage"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Condition Coverage"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Path Coverage"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Statement Coverage"
+        }
+      ]
+    },
+{
+      "Id": 6,
+      "Content": "Acceptance test cases are based on what?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Code"
+        },
+        {
+          "IsCorrect": false,
+          "Content": " Design"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Decision table"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Requirements"
+        }
+      ]
+    },
+{
+      "Id": 7,
+      "Content": "Beta testing is",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "performed as early as possible in the lifecycle"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "performed as an Independent Test Team"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "performed as customers at their own site"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "performed as customers at the software developer's site"
+        }
+      ]
+    },
+{
+      "Id": 8,
+      "Content": "Which one of the following are non-functional testing methods",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Performance testing"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "System testing"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Unit testing"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Alpha testing"
+        }
+      ]
+    },
+{
+      "Id": 9,
+      "Content": "Alpha/Beta Testing is a type of...",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Unit testing"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Integration testing"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Acceptance testing"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "System testing"
+        }
+      ]
+    },
+{
+      "Id": 10,
+      "Content": "Acceptance Testing also called:",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "White box testing."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "System Testing."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Grey box testing."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Beta testing."
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Content": "User Acceptance Testing is performed by the end user ",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Content": "Alpha Testing is performed at Developer’s site",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Content": "Driver calls the Module to be tested.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Content": "Unit Testing done by the tester",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Content": "Four types of systematic technique",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Content": "Using @Before executed before each test cases",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Content": "White Box is also know as functional testing",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "Content": "Using @Before executed before each test cases",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "Content": "EP is stand for Equivalence Partitioning",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 20,
+      "Content": "SDLC is Software Development Life Cycle",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 21,
+      "Content": "STLC is Software Testing Life Cycle.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 22,
+      "Content": "Software Development Life Cycle is carried out by Testers.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 23,
+      "Content": "STLC is carried out by Developers",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 24,
+      "Content": "Static techniques execute code",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 25,
+      "Content": "Early testing is one of Seven Testing Principles",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "OOP",
+  "name": "Object Oriented Programming",
+  "description": "OOP (Object-Oriented Programming): a programming paradigm based on objects.",
+  "list": [
+    {
+      "Id": 0,
+      "Content": "What is a variable in programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "A constant value."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "A storage location in memory."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "A conditional statement."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "A loop control statement."
+        }
+      ]
+    },
+    {
+      "Id": 1,
+      "Content": "What is a function in programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "A loop control statement"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "A conditional statement"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "A block of code that performs a specific task"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "A storage location in memory"
+        }
+      ]
+    },
+{
+      "Id": 2,
+      "Content": "What is the primary purpose of programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Automating tasks with code"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Solving complex math problems"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Creating art with algorithms"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Developing mobile applications"
+        }
+      ]
+    },
+{
+      "Id": 3,
+      "Content": "Which programming language is most commonly used for web development?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Java"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Python"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Ruby"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "JavaScript"
+        }
+      ]
+    },
+{
+      "Id": 4,
+      "Content": "What does the acronym IDE stand for in programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Integrated Development Environment"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "International Data Encryption"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Internet Download Extension"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Intelligent Data Extraction"
+        }
+      ]
+    },
+{
+      "Id": 5,
+      "Content": "Which data structure stores elements in a last-in, first-out order?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Queue"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Stack"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Linked List"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Tree"
+        }
+      ]
+    },
+{
+      "Id": 6,
+      "Content": "What is the process of finding and fixing errors in code called?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Debugging"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Compiling"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Interpreting"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Refactoring"
+        }
+      ]
+    },
+{
+      "Id": 7,
+      "Content": "Which programming paradigm focuses on data and its behavior, rather than functions and logic?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Object-oriented"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Procedural"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Functional"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Imperative"
+        }
+      ]
+    },
+{
+      "Id": 8,
+      "Content": "What is the purpose of a loop in programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "To execute a block of code repeatedly"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "To exit the program"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "To input user data"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "To declare variables"
+        }
+      ]
+    },
+{
+      "Id": 9,
+      "Content": "Which programming concept is used to group related data and functions together?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": " Inheritance"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Polymorphism"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Encapsulation"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Abstraction"
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Content": "Is OOP a programming paradigm?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Yes"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "No"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Content": "Does OOP exclusively use objects and classes?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Yes"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "No"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Content": "Can objects in OOP have their own data and behavior?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Yes"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "No"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Content": "Is inheritance the only form of code reuse in OOP?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Yes"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "No"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Content": "Does OOP eliminate the need for procedural programming entirely?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Yes"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "No"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    }
+  ]
+}
