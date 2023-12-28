@@ -1,0 +1,467 @@
+{
+  "id": "LTC",
+  "name": "C Programming",
+  "description": "Introduction to C Programming: foundational language for software development.",
+  "list": [
+    {
+      "Id": 0,
+      "Content": "Who is the father of C language",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Steve Jobs"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "James Gosling"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Dennis Ritchie"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Rasmus Lerdorf"
+        }
+      ]
+    },
+    {
+      "Id": 1,
+      "Content": "Which of the following is not a vaild C variable name?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "int number;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "float rate;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "int variable_count;"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "int $main;"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Content": "All keywords in C are in _________",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "LowerCase letters"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "UpperCase letters"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "CamelCase letters"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "None of the mentioned"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Content": "Which is valid C expression?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "int my_num = 100,000;"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "int my_num = 100000;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "int my_num = 100000;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "int $my_num = 10000;"
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Content": "Which of the following cannot be a variable name in C?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "volatile"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "true"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "friend"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "export"
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Content": "What is short int in C programming?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "The basic data type of C"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Qualifier"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Short is the qualifier and int is the basic data type"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "All of the mentioned"
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Content": "Which of the following declaration is not supported by C language?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "String str;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "char *str;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "float str = 3e2;"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Both “String str;” and “float str = 3e2;”"
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Content": "Which keyword is used to prevent any changes in the variable within a C program?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "immutable"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "mutable"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "const"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "volatile"
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Content": "Which of the following typecasting is accepted by C language?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "Widening conversions"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Narrowing conversions"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "Widening & Narrowing conversions"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "None of the mentioned"
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Content": "What is an example of iteration in C?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "for"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "while"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "do-while"
+        },
+        {
+          "IsCorrect": true,
+          "Content": "all of the mentioned"
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Content": "What is #include <stdio.h>?",
+      "Type": 0,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "Preprocessor directive"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "Inclusion directive"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "File inclusion directive"
+        },
+        {
+          "IsCorrect": false,
+          "Content": "None of the mentioned"
+        }
+      ]
+    },
+    {
+      "Id": 11,
+      "Content": "Functions can return enumeration constants in C?",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 12,
+      "Content": "C preprocessors can have compiler specific features.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 13,
+      "Content": "Spaces and commas are allowed in a variable name.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 14,
+      "Content": "A real constant in C can be expressed in both Fractional and Exponential forms.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 15,
+      "Content": "The return type of malloc function is void",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 16,
+      "Content": "#define is known as preprocessor compiler directive.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 17,
+      "Content": "The maximum value that an integer constant can have varies from one compiler to another.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 18,
+      "Content": "Algorithm is the graphical representation of logic.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": false,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": true,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    },
+    {
+      "Id": 19,
+      "Content": "The keywords cannot be used as variable names.",
+      "Type": 1,
+      "Options": [
+        {
+          "IsCorrect": true,
+          "Content": "True."
+        },
+        {
+          "IsCorrect": false,
+          "Content": "False"
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        },
+        {
+          "IsCorrect": false,
+          "Content": ""
+        }
+      ]
+    }
+  ]
+}
